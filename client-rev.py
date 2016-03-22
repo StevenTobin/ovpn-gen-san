@@ -4,12 +4,8 @@ from jinja2 import Template
 import sys, os, shutil, subprocess, time
 
 #########################################################
-# A python script to generate .ovpn files. The script   #
-# reads in data from data/username & data/VPNAddress    #
-# it then uses this data to generate the files.         #
-# if a username is read in which does not have a        #
-# corresponding key/cert pair the script will           #
-# prompt the user to create them.                       #
+# A python script to revoke signed certificates for     #
+# a vpn server                                          #
 #########################################################
 
 
